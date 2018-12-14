@@ -1,0 +1,47 @@
+{
+  "name": "beanstream-node",
+  "version": "1.0.0-6-beta",
+  "description": "Beanstream NodeJS SDK",
+  "keywords": [
+    "beanstream",
+    "payment processing",
+    "credit cards",
+    "api",
+    "bambora",
+    "secure"
+  ],
+  "homepage": "https://github.com/beanstream-drwp/beanstream-nodejs",
+  "author": "Beanstream <support@beanstream.com> (https://beanstream.com/)",
+  "contributors": [
+    "Brent Owens"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/beanstream-drwp/beanstream-nodejs.git"
+  },
+  "bugs:": "https://github.com/beanstream-drwp/beanstream-nodejs/issues",
+  "engines": {
+    "node": ">= v0.10.0"
+  },
+  "main": "lib/beanstream.js",
+  "devDependencies": {
+    "chai": "~1.10.0",
+    "chai-as-promised": "~4.1.1",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.6",
+    "lodash": "^4.17.11",
+    "node-rest-client": "^3.1.0",
+    "qs": "^2.4.1",
+    "shortid": "2.2.6"
+  },
+  "oldDependencies": {
+    "lodash": "^3.1.0",
+    "node-rest-client": "~1.5.1"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  }
+}
